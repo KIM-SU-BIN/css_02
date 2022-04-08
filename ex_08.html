@@ -5,18 +5,48 @@
         <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
         <title>스타일시트</title>
         <!-- 스타일시트자리 -->
-        
         <style>
-	      
-         </style>
+		*{
+			padding: 0px;
+			margin: 0px;
+			}
+
+		.box-red{
+			/* background-color: #ff0000; */
+			border: 1px solid #000000;
+			width: 100px;
+			
+			/* padding-top: 10px;
+			padding-right: 20px;
+			padding-bottom: 30px;
+			padding-left: 40px; */
+			
+			
+			/* padding: 10px; */
+			/* padding: 50px 10px; */
+			/* padding: 10px 20px 30px 40px; */
+			padding: 0px 10px 0px 50px;  /* 상하좌우 순서대로 기입하기 때문에 두개만 입력시 상하에 적용 */
+			
+			/* margin-top: 10px;
+			margin-right: 20px;
+			margin-bottom: 30px;
+			margin-left: 40px; */
+			
+			/* margin: 10px; */
+			/* margin: 10px 50px; */
+			margin: 10px 20px 30px 40px;
+			}
+			      
+        </style>
         
         
     </head>
 
     <body>
-	
-        
-
+		<div class="box-red">
+			div 태그
+		</div> 
+		
     </body>
 
 </html>
