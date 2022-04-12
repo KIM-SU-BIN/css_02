@@ -5,12 +5,27 @@
         <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
         <title>스타일시트</title>
         <!-- 스타일시트자리 -->
+        <style>
+        	li{
+        		list-style-type: none;
+        		/* border-left: 1px solid #000000; */
+        		float: left;
+        	}
+        	
+        	li:after {content: " > "}
         
+        
+        </style>
         
     </head>
 
     <body>
-		
+    	<ol>
+    		<li>홈</li>
+    		<li>게시판</li>
+    		<li>일반게시판</li>
+    		<li>리스트</li>
+		</ol>
     </body>
 
 </html>
